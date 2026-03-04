@@ -4,5 +4,6 @@
   "devCommand": "cd apps/web && npm run dev",
   "installCommand": "npm install --prefix apps/web",
   "framework": null,
-  "outputDirectory": "apps/web/.next"
+  "outputDirectory": "apps/web/.next",
+  "ignoreCommand": "git diff HEAD^ HEAD --quiet ."
 }
